@@ -12,3 +12,20 @@ This repository contains the foundational SQL structure for the **Elite Academy*
 
 ## Tools
 * **MySQL Workbench**: Used for designing and executing the database foundation.
+
+## Database Preview
+
+### Database Architecture
+The foundational structure of the elite_academy system showing the core tables.
+
+![Tables Structure](screenshots/tables_structure.png)
+
+### Execution Success Logs
+A detailed view of the successful SQL operations and database maintenance tasks.
+
+![Execution Log](screenshots/execution_log.png)
+
+### Data Sample
+A preview of student records as stored in the database.
+
+![Students Sample](screenshots/students_sample.png)
