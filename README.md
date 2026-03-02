@@ -1,31 +1,50 @@
-# Elite Academy: Database Foundation
-
-This repository contains the foundational SQL structure for the **Elite Academy** management system. It focuses on organized data storage and efficient retrieval for academic records. ✨
+# Elite Academy SQL Project Series
+This repository presents a structured SQL project series for the **Elite Academy** management system. It demonstrates database design, data processing, and advanced querying techniques for managing academic records. ✨
 
 ## Current Focus
 * **Database Structure:** Implementation of the core tables for `subjects`, `teachers`, and `students`.
 * **Data Management:** Populated the system with realistic records to simulate a functional environment.
-* **Core Queries:** Developed essential SQL scripts for retrieving and managing academic data.
+* **Advanced SQL Processing:** Data cleaning, transformations, and analytical queries.
 
 ## Project Files
-* `elite_academy.sql`: The primary script including schema definitions and data entries.
+* `elite_academy_v1_foundation.sql`: Core database schema and initial data.
+* `elite_academy_v2_refactoring.sql`: Advanced operations, data cleaning, and transformations.
 
 ## Tools
-* **MySQL Workbench**: Used for designing and executing the database foundation.
+* **MySQL Workbench** – Used for designing and executing the database system.
 
-## Database Preview
+## Version 1 – Database Foundation
 
 ### Database Architecture
-The foundational structure of the elite_academy system showing the core tables.
+The foundational structure of the Elite Academy system showing the core tables.
 
-![Tables Structure](screenshots/tables_structure.png)
+![Tables Structure](screenshots/v1_tables_structure.png)
 
-### Execution Success Logs
-A detailed view of the successful SQL operations and database maintenance tasks.
+### Execution Logs
+A detailed view of successful SQL operations.
 
-![Execution Log](screenshots/execution_log.png)
+![Execution Log](screenshots/v1_execution_log.png)
 
 ### Data Sample
-A preview of student records as stored in the database.
+A preview of student records stored in the database.
 
-![Students Sample](screenshots/students_sample.png)
+![Students Sample](screenshots/v1_students_sample.png)
+
+---
+
+## Version 2 – Data Processing & Analysis
+
+### High-Performing Students Segment
+Students with GPA greater than 90, stored in a dedicated table for performance analysis.
+
+![Top Students](screenshots/v2_top_students.png)
+
+### At-Risk Students Segment
+Students with GPA less than 60, identified for targeted academic improvement.
+
+![Struggling Students](screenshots/v2_struggling_students.png)
+
+### GPA Statistics Overview
+Summary statistics including the average, minimum, and maximum GPA values across all students.
+
+![GPA Stats](screenshots/v2_gpa_stats.png)
